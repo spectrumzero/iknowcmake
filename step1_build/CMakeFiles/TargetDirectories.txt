@@ -1,0 +1,3 @@
+E:/lazycoding/iknowcmake/step1_build/CMakeFiles/Tutorial.dir
+E:/lazycoding/iknowcmake/step1_build/CMakeFiles/ALL_BUILD.dir
+E:/lazycoding/iknowcmake/step1_build/CMakeFiles/ZERO_CHECK.dir

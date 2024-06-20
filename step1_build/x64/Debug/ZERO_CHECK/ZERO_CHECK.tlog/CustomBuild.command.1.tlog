@@ -1,0 +1,10 @@
+^E:\LAZYCODING\IKNOWCMAKE\STEP1_BUILD\CMAKEFILES\819B068D0B3B88A283D723F425405D1C\GENERATE.STAMP.RULE
+setlocal
+C:\Users\admin\scoop\apps\cmake\3.27.9\bin\cmake.exe -SE:/lazycoding/iknowcmake/Step1 -BE:/lazycoding/iknowcmake/step1_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/lazycoding/iknowcmake/step1_build/Tutorial.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

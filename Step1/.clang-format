@@ -1,0 +1,5 @@
+BasedOnStyle: LLVM
+IndentWidth: 2
+ColumnLimit: 0
+# 如果要禁用格式化，尤其是单独针对某个文件或某个部分，那么在前面加上注释`clang-format off`即可。打开即是on
+DisableFormat: false
